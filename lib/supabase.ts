@@ -15,7 +15,7 @@ export const supabase = createClient(supabaseUrl, supabaseKey, {
     storage: window.localStorage,
     storageKey: 'horizon-sales-tv-auth'
   },
-  db: { schema: 'public' },
+  db: { schema: 'vendas' },
   realtime: { params: { eventsPerSecond: 10 } },
   global: { headers: { 'x-application-name': 'horizon-sales-tv' } }
 });
