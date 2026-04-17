@@ -1,0 +1,5 @@
+{
+  "name": "TV Sales Dashboard",
+  "description": "Dashboard para TV com ranking de vendedores e alertas sonoros de vendas em tempo real.",
+  "requestFramePermissions": []
+}
